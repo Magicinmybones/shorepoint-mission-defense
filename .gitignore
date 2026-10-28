@@ -1,0 +1,19 @@
+# Local tooling and caches
+node_modules/
+.wrangler/
+.cache/
+dist/
+
+# Local settings and secrets
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+*~
